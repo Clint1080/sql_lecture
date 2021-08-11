@@ -1,0 +1,17 @@
+When you want to save information. (store data)
+
+Relational database 
+NoSQL databases don't require any predefined schema, allowing you to work more freely with “unstructured data.” Relational databases are vertically scalable, but usually more expensive, whereas the horizontal scaling nature of NoSQL databases is more cost-efficient. SQL databases are known as relational databases, and have a table-based data structure, with a strict, predefined schema required. NoSQL databases, or non-relational databases, can be document based, graph databases, key-value pairs, or wide-column stores. NoSQL databases don’t require any predefined schema, allowing you to work more freely with “unstructured data.” Relational databases are vertically scalable, but usually more expensive, whereas the horizontal scaling nature of NoSQL databases is more cost-efficient.
+
+NoSQL, MongoDB, Raven, 
+mySQL, Postgres, ORACLE, SQLlite
+
+Data types for Postgresql - VARCHAR, INT, NUMERIC, 
+
+NoSQL (“non SQL” or “not only SQL”) databases were developed in the late 2000s with a focus on scaling, fast queries, allowing for frequent application changes, and making programming simpler for developers. Relational databases accessed with SQL (Structured Query Language) were developed in the 1970s with a focus on reducing data duplication as storage was much more costly than developer time. SQL databases tend to have rigid, complex, tabular schemas and typically require expensive vertical scaling.
+
+CREATE TABLE bakery (
+    id SERIAL PRIMARY KEY,
+    order_id INT,
+    customer
+)
